@@ -1,6 +1,7 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./Header";
+import Home from "./Home";
 
 function App() {
   return (
@@ -12,38 +13,8 @@ function App() {
             element={
               <>
                 <Header />
-                <h1> Home Page</h1>
-                <h1> Home Page</h1>
-                <h1> Home Page</h1>
-
-
-
-                <h1> Home Page</h1><h1> Home Page</h1>
-                <h1> Home Page</h1>
-                <h1> Home Page</h1>
-                <h1> Home Page</h1>
-                <h1> Home Page</h1>
-                <h1> Home Page</h1>
-                <h1> Home Page</h1>
-                <h1> Home Page</h1>
-                <h1> Home Page</h1>
-                <h1> Home Page</h1>
-                <h1> Home Page</h1>
-                <h1> Home Page</h1>
-
-                <h1> Home Page</h1>
-                <h1> Home Page</h1>
-                <h1> Home Page</h1>
-                <h1> Home Page</h1>
-                <h1> Home Page</h1>
-                <h1> Home Page</h1>
-                v
-                v
-                <h1> Home Page</h1>
-                vitals<h1> Home Page</h1>
-
-                <h1> Home Page</h1>
-                <h1> Home Page</h1>
+                <Home />
+          
               </>
             }
           />
