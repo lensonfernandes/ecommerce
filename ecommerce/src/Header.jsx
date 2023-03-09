@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
 import SearchIcon from "@mui/icons-material/Search";
+import ShoppingBasketOutlined from "@mui/icons-material/ShoppingBasketOutlined";
 
 const Header = () => {
   return (
@@ -31,24 +32,26 @@ const Header = () => {
         </Link>
 
         {/* link2 */}
-        <Link to="/login" className="header_link">
+        <Link to="/" className="header_link">
           <div className="header_option">
             <span className="header_optionLine1">Returns</span>
             <span className="header_optionLine2">& Orders</span>
           </div>
         </Link>
         {/* link3 */}
-        <Link to="/login" className="header_link">
+        <Link to="/" className="header_link">
           <div className="header_option">
             <span className="header_optionLine1">Your</span>
             <span className="header_optionLine2">Prime</span>
           </div>
         </Link>
         {/* link4 */}
-        <Link to="/login" className="header_link">
-          <div className="header_option">
-            <span className="header_optionLine1">Cart</span>
-            <span className="header_optionLine2"> 0 </span>
+        <Link to="/checkout" className="header_link">
+          <div className="header_optionBasket">
+            {/* Cart */}
+            <ShoppingBasketOutlined className="h"/>
+            {/* no */}
+            <span className="header_optionLine2 header_basketCount"> 0 </span>
           </div>
         </Link>
       </div>
